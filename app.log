@@ -1,0 +1,422 @@
+2019-04-02 15:34:54,281 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-04-02 15:35:01,070 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-04-02 15:35:06,852 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-04-02 15:35:20,021 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test 29 de Marzo.xlsx
+2019-04-02 15:35:20,889 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-04-02 15:35:21,362 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310804540001B
+2019-04-02 15:35:24,558 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:35:26,911 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310838740001B
+2019-04-02 15:35:30,642 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:35:33,368 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664620001B
+2019-04-02 15:35:37,763 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:35:39,209 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458920001B
+2019-04-02 15:35:43,116 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:35:46,336 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702110001B
+2019-04-02 15:35:50,095 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:35:52,005 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310712030001B
+2019-04-02 15:35:55,405 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:35:58,322 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310586850002B
+2019-04-02 15:36:01,148 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:36:03,661 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310595430001B
+2019-04-02 15:36:07,549 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:36:09,146 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310725430001B
+2019-04-02 15:36:11,904 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:13,724 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050001B
+2019-04-02 15:36:17,486 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:19,145 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050002B
+2019-04-02 15:36:21,947 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:36:23,747 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310736580001B
+2019-04-02 15:36:27,671 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:29,617 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310488510001B
+2019-04-02 15:36:32,876 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:34,297 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050003B
+2019-04-02 15:36:38,117 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:36:39,579 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310537460001B
+2019-04-02 15:36:42,883 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:44,524 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631320001B
+2019-04-02 15:36:50,087 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:51,523 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310549650001B
+2019-04-02 15:36:54,896 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:36:56,056 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598440001B
+2019-04-02 15:36:57,740 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:36:58,144 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598440001B
+2019-04-02 15:37:01,404 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:37:04,194 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310657900001B
+2019-04-02 15:37:07,535 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:37:09,418 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270002B
+2019-04-02 15:37:13,849 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:37:15,333 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411340002B
+2019-04-02 15:37:19,647 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:37:21,084 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564950001B
+2019-04-02 15:37:24,400 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:37:27,265 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310567070001B
+2019-04-02 15:37:31,706 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:37:33,105 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310684590001B
+2019-04-02 15:37:35,954 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:37:37,061 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309909110001B
+2019-04-02 15:37:39,542 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:37:39,909 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309909110001B
+2019-04-02 15:37:43,886 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:37:45,326 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631620001B
+2019-04-02 15:37:49,121 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:37:50,378 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310473970001B
+2019-04-02 15:37:53,758 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:37:55,026 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270003B
+2019-04-02 15:37:58,722 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:37:59,103 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270003B
+2019-04-02 15:38:02,878 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:05,248 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310359750001B
+2019-04-02 15:38:10,251 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:38:11,581 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270001B
+2019-04-02 15:38:15,458 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:18,378 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310277670001B
+2019-04-02 15:38:22,185 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:23,668 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310044230001B
+2019-04-02 15:38:26,970 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:28,399 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310245300001B
+2019-04-02 15:38:31,722 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:32,853 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310048300001B
+2019-04-02 15:38:36,833 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:38:39,295 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310422530001B
+2019-04-02 15:38:42,273 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:38:50,580 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310674690001B
+2019-04-02 15:38:53,358 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:38:55,174 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310043230002B
+2019-04-02 15:38:59,211 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:39:03,504 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411340001B
+2019-04-02 15:39:08,671 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:10,894 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310747490001B
+2019-04-02 15:39:14,113 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:39:16,535 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310756170001B
+2019-04-02 15:39:20,234 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:21,803 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310747490002B
+2019-04-02 15:39:25,000 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:39:26,348 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310779430001B
+2019-04-02 15:39:30,170 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
+2019-04-02 15:39:31,297 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310537810001B
+2019-04-02 15:39:35,077 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:37,413 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310003040001B
+2019-04-02 15:39:41,151 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:42,816 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310445320001B
+2019-04-02 15:39:46,075 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:48,715 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310156830001B
+2019-04-02 15:39:51,481 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:53,310 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310738830001B
+2019-04-02 15:39:57,084 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:39:58,851 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310659750001B
+2019-04-02 15:40:02,098 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:03,869 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310576660001B
+2019-04-02 15:40:07,134 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:08,985 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310663350001B
+2019-04-02 15:40:12,337 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:14,610 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310273690001B
+2019-04-02 15:40:17,393 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:19,127 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310506190001B
+2019-04-02 15:40:22,406 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:24,166 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310004820001B
+2019-04-02 15:40:27,427 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:29,267 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632310001B
+2019-04-02 15:40:33,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:35,348 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739840001B
+2019-04-02 15:40:39,146 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:41,328 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739480001B
+2019-04-02 15:40:46,138 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:47,616 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310509090001B
+2019-04-02 15:40:51,501 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:53,273 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309809570001B
+2019-04-02 15:40:57,054 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:40:58,430 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310574060001B
+2019-04-02 15:41:02,197 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:03,598 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310526180001B
+2019-04-02 15:41:07,339 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:09,464 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000308319480001B
+2019-04-02 15:41:13,311 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:14,833 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310571180001B
+2019-04-02 15:41:19,153 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:20,591 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664430001B
+2019-04-02 15:41:23,846 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:25,234 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310217850001B
+2019-04-02 15:41:27,963 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:29,343 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310449430001B
+2019-04-02 15:41:33,147 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:35,034 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310637820001B
+2019-04-02 15:41:39,006 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:40,659 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310504650001B
+2019-04-02 15:41:43,909 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:45,346 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310565470001B
+2019-04-02 15:41:49,145 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:50,622 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310740100001B
+2019-04-02 15:41:54,439 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:41:56,172 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310372340001B
+2019-04-02 15:41:58,997 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:00,052 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310380170001B
+2019-04-02 15:42:03,935 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:05,309 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310576050001B
+2019-04-02 15:42:09,082 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:10,404 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310373820001B
+2019-04-02 15:42:15,255 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:16,627 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569440001B
+2019-04-02 15:42:19,947 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:21,323 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664890001G
+2019-04-02 15:42:26,235 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
+2019-04-02 15:42:27,573 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310575680001B
+2019-04-02 15:42:30,872 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:31,933 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632970001B
+2019-04-02 15:42:35,213 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:37,389 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632610001B
+2019-04-02 15:42:41,287 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:42,695 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310446080001B
+2019-04-02 15:42:46,036 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:47,884 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310663830001B
+2019-04-02 15:42:51,822 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:53,337 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577330001B
+2019-04-02 15:42:57,600 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:42:59,107 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666920001B
+2019-04-02 15:43:02,945 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:04,427 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310360700002B
+2019-04-02 15:43:07,651 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:09,262 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310729770001B
+2019-04-02 15:43:12,897 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:14,633 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310365800001B
+2019-04-02 15:43:17,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:19,445 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310280910001B
+2019-04-02 15:43:22,376 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:43:22,650 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310280910001B
+2019-04-02 15:43:25,829 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:27,076 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309792250004B
+2019-04-02 15:43:30,304 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:32,031 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411750001B
+2019-04-02 15:43:35,151 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:36,165 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310451620001B
+2019-04-02 15:43:38,795 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:40,085 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577760001B
+2019-04-02 15:43:43,195 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:43:43,495 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577760001B
+2019-04-02 15:43:47,253 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:48,309 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564630001B
+2019-04-02 15:43:52,036 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:43:53,206 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310447880001B
+2019-04-02 15:43:56,662 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:43:56,968 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310447880001B
+2019-04-02 15:44:00,105 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:01,835 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310633210001B
+2019-04-02 15:44:05,988 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:07,335 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310195310001B
+2019-04-02 15:44:12,128 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:13,468 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310750110001G
+2019-04-02 15:44:16,670 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
+2019-04-02 15:44:19,189 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310733290001B
+2019-04-02 15:44:22,308 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:24,340 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310507070001B
+2019-04-02 15:44:27,469 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:29,151 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310758830001B
+2019-04-02 15:44:32,405 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:34,149 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310735860001B
+2019-04-02 15:44:41,508 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:42,839 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310679040001B
+2019-04-02 15:44:47,487 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:48,865 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310344450001B
+2019-04-02 15:44:51,471 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:53,057 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310449800001B
+2019-04-02 15:44:55,717 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:44:57,446 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310679450001B
+2019-04-02 15:45:00,139 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:01,772 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310503850001B
+2019-04-02 15:45:04,886 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:07,435 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310734790001B
+2019-04-02 15:45:11,067 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:13,723 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310093110001B
+2019-04-02 15:45:17,443 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:19,228 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310755620001B
+2019-04-02 15:45:22,466 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:24,197 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505630001B
+2019-04-02 15:45:26,838 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:29,189 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310506870001B
+2019-04-02 15:45:31,798 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:34,547 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310567460001B
+2019-04-02 15:45:37,181 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:38,482 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310736790001B
+2019-04-02 15:45:42,230 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:44,782 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310501010001B
+2019-04-02 15:45:47,474 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:50,045 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631950001B
+2019-04-02 15:45:52,659 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:54,337 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310604710001B
+2019-04-02 15:45:56,956 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:45:58,975 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310450390001B
+2019-04-02 15:46:01,616 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:03,287 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310432570001B
+2019-04-02 15:46:05,980 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:07,327 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310675530001B
+2019-04-02 15:46:10,535 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:13,241 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310444740001B
+2019-04-02 15:46:16,380 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:18,067 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310127070001B
+2019-04-02 15:46:20,681 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:22,341 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285330770001B
+2019-04-02 15:46:26,519 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:46:27,530 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310344220001B
+2019-04-02 15:46:30,200 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:31,786 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310734600001B
+2019-04-02 15:46:34,478 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:37,142 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310275260002B
+2019-04-02 15:46:40,851 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:41,876 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310636780001B
+2019-04-02 15:46:45,000 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:45,996 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310635100001B
+2019-04-02 15:46:49,202 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:51,607 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310279940001B
+2019-04-02 15:46:54,911 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:46:56,777 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739060001B
+2019-04-02 15:46:59,888 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:01,221 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310672430001G
+2019-04-02 15:47:04,878 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
+2019-04-02 15:47:07,078 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285280530001B
+2019-04-02 15:47:09,238 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:47:11,286 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310749500001B
+2019-04-02 15:47:15,625 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:16,982 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285297630001B
+2019-04-02 15:47:19,162 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:47:20,858 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310337940001B
+2019-04-02 15:47:23,996 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:25,311 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505750001B
+2019-04-02 15:47:28,961 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:30,630 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310515420001B
+2019-04-02 15:47:34,436 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:35,839 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285295470001B
+2019-04-02 15:47:38,107 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:47:39,850 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285316160001B
+2019-04-02 15:47:41,961 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:47:43,312 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458190001B
+2019-04-02 15:47:46,945 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:47:48,392 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458730001G
+2019-04-02 15:47:52,595 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
+2019-04-02 15:47:54,352 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285258980001B
+2019-04-02 15:47:57,092 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:47:58,458 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310163670001B
+2019-04-02 15:48:02,191 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:04,862 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310046180001B
+2019-04-02 15:48:07,992 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:09,303 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285306400001B
+2019-04-02 15:48:12,427 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:48:13,670 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310382780001B
+2019-04-02 15:48:16,971 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:18,615 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285370200001B
+2019-04-02 15:48:21,395 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:48:22,981 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310568330001B
+2019-04-02 15:48:26,087 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:27,375 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285268830001B
+2019-04-02 15:48:31,012 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-04-02 15:48:32,619 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310611290001G
+2019-04-02 15:48:36,316 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
+2019-04-02 15:48:37,614 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598720001B
+2019-04-02 15:48:41,413 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:43,887 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310580670001B
+2019-04-02 15:48:47,052 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:48:49,290 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310597490001B
+2019-04-02 15:49:36,576 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:49:38,576 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310572880001B
+2019-04-02 15:50:39,279 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:50:40,652 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
+2019-04-02 15:51:09,675 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 15:51:09,986 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
+2019-04-02 15:51:45,579 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
+2019-04-02 15:51:49,847 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 15:51:50,137 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310572880001B
+2019-04-02 15:51:54,415 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:51:55,832 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
+2019-04-02 15:52:00,987 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:52:02,776 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310686870001B
+2019-04-02 15:53:08,111 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:53:09,508 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310439920001B
+2019-04-02 15:54:03,117 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:54:04,744 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310373350001B
+2019-04-02 15:54:55,650 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:54:57,426 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310407190001B
+2019-04-02 15:55:13,394 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 15:55:13,751 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310407190001B
+2019-04-02 15:56:06,037 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:56:07,424 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569760001B
+2019-04-02 15:57:03,438 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:57:04,905 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
+2019-04-02 15:57:32,704 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 15:57:33,051 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
+2019-04-02 15:58:20,242 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
+2019-04-02 15:58:24,179 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 15:58:24,470 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569760001B
+2019-04-02 15:58:27,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:58:31,198 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
+2019-04-02 15:58:34,813 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 15:58:36,240 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310668920001B
+2019-04-02 15:59:33,311 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 15:59:34,372 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310628400001B
+2019-04-02 16:00:31,668 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:00:36,166 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569340001B
+2019-04-02 16:01:31,228 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:01:32,722 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458600001B
+2019-04-02 16:02:30,517 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:02:32,249 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310677010001B
+2019-04-02 16:02:50,911 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 16:02:51,253 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310677010001B
+2019-04-02 16:03:47,350 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:03:49,067 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
+2019-04-02 16:04:26,129 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 16:04:26,547 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
+2019-04-02 16:05:23,654 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 16:05:24,010 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
+2019-04-02 16:05:27,860 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 16:05:29,535 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
+2019-04-02 16:05:42,565 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 16:05:42,973 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
+2019-04-02 16:05:46,520 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-04-02 16:05:46,875 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
+2019-04-02 16:07:00,220 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:07:01,351 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
+2019-04-02 16:07:38,176 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 16:07:38,510 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
+2019-04-02 16:08:28,317 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
+2019-04-02 16:08:31,109 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
+2019-04-02 16:08:31,433 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
+2019-04-02 16:08:35,072 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 16:08:37,093 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
+2019-04-02 16:08:41,341 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
+2019-04-02 16:08:43,733 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310045490001B
+2019-04-02 16:09:37,287 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:09:38,357 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632060001B
+2019-04-02 16:11:37,767 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:11:39,175 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310715110001B
+2019-04-02 16:12:29,569 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:12:30,989 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310342800001B
+2019-04-02 16:13:53,832 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:13:54,878 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739180001B
+2019-04-02 16:14:59,475 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:15:00,973 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310500090001B
+2019-04-02 16:16:00,965 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:16:02,258 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310730970001B
+2019-04-02 16:17:02,230 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:17:04,283 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666350001B
+2019-04-02 16:18:04,255 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:18:05,394 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505350001B
+2019-04-02 16:19:20,163 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:19:21,336 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310362680001B
+2019-04-02 16:20:27,531 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:20:28,591 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505330001B
+2019-04-02 16:21:51,351 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:21:52,568 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310670630001G
+2019-04-02 16:22:15,706 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015995264
+2019-04-02 16:22:17,180 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310499530001B
+2019-04-02 16:23:39,750 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:23:41,152 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310755020001B
+2019-04-02 16:24:34,566 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
+2019-04-02 16:24:35,677 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666690001B
+2019-04-02 16:24:38,298 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015961738
+2019-04-02 16:37:54,982 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Pallet List page
+2019-04-02 16:38:06,314 INFO c.n.r.p.PalletList [main] Sealing pallets
+2019-04-02 16:38:06,314 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015993786
+2019-04-02 16:38:28,681 INFO c.n.r.p.PalletList [main] Pallet ID 1015993786 sealed
+2019-04-02 16:38:38,840 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015993779
+2019-04-02 16:39:11,935 INFO c.n.r.p.PalletList [main] Pallet ID 1015993779 sealed
+2019-04-02 16:38:38,840 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015995264
+2019-04-02 16:39:11,935 INFO c.n.r.p.PalletList [main] Pallet ID 1015995264 sealed
+2019-04-02 16:39:22,102 INFO c.n.r.p.PalletList [main] Finished sealing process
+2019-04-02 16:39:22,104 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
