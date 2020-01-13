@@ -1,422 +1,1038 @@
-2019-04-02 15:34:54,281 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
-2019-04-02 15:35:01,070 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
-2019-04-02 15:35:06,852 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
-2019-04-02 15:35:20,021 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test 29 de Marzo.xlsx
-2019-04-02 15:35:20,889 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
-2019-04-02 15:35:21,362 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310804540001B
-2019-04-02 15:35:24,558 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:35:26,911 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310838740001B
-2019-04-02 15:35:30,642 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:35:33,368 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664620001B
-2019-04-02 15:35:37,763 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:35:39,209 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458920001B
-2019-04-02 15:35:43,116 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:35:46,336 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702110001B
-2019-04-02 15:35:50,095 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:35:52,005 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310712030001B
-2019-04-02 15:35:55,405 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:35:58,322 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310586850002B
-2019-04-02 15:36:01,148 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:36:03,661 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310595430001B
-2019-04-02 15:36:07,549 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:36:09,146 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310725430001B
-2019-04-02 15:36:11,904 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:13,724 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050001B
-2019-04-02 15:36:17,486 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:19,145 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050002B
-2019-04-02 15:36:21,947 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:36:23,747 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310736580001B
-2019-04-02 15:36:27,671 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:29,617 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310488510001B
-2019-04-02 15:36:32,876 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:34,297 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310702050003B
-2019-04-02 15:36:38,117 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:36:39,579 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310537460001B
-2019-04-02 15:36:42,883 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:44,524 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631320001B
-2019-04-02 15:36:50,087 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:51,523 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310549650001B
-2019-04-02 15:36:54,896 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:36:56,056 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598440001B
-2019-04-02 15:36:57,740 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:36:58,144 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598440001B
-2019-04-02 15:37:01,404 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:37:04,194 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310657900001B
-2019-04-02 15:37:07,535 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:37:09,418 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270002B
-2019-04-02 15:37:13,849 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:37:15,333 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411340002B
-2019-04-02 15:37:19,647 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:37:21,084 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564950001B
-2019-04-02 15:37:24,400 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:37:27,265 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310567070001B
-2019-04-02 15:37:31,706 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:37:33,105 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310684590001B
-2019-04-02 15:37:35,954 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:37:37,061 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309909110001B
-2019-04-02 15:37:39,542 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:37:39,909 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309909110001B
-2019-04-02 15:37:43,886 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:37:45,326 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631620001B
-2019-04-02 15:37:49,121 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:37:50,378 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310473970001B
-2019-04-02 15:37:53,758 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:37:55,026 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270003B
-2019-04-02 15:37:58,722 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:37:59,103 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270003B
-2019-04-02 15:38:02,878 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:05,248 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310359750001B
-2019-04-02 15:38:10,251 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:38:11,581 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310124270001B
-2019-04-02 15:38:15,458 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:18,378 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310277670001B
-2019-04-02 15:38:22,185 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:23,668 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310044230001B
-2019-04-02 15:38:26,970 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:28,399 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310245300001B
-2019-04-02 15:38:31,722 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:32,853 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310048300001B
-2019-04-02 15:38:36,833 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:38:39,295 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310422530001B
-2019-04-02 15:38:42,273 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:38:50,580 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310674690001B
-2019-04-02 15:38:53,358 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:38:55,174 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310043230002B
-2019-04-02 15:38:59,211 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:39:03,504 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411340001B
-2019-04-02 15:39:08,671 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:10,894 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310747490001B
-2019-04-02 15:39:14,113 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:39:16,535 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310756170001B
-2019-04-02 15:39:20,234 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:21,803 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310747490002B
-2019-04-02 15:39:25,000 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:39:26,348 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310779430001B
-2019-04-02 15:39:30,170 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993786
-2019-04-02 15:39:31,297 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310537810001B
-2019-04-02 15:39:35,077 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:37,413 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310003040001B
-2019-04-02 15:39:41,151 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:42,816 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310445320001B
-2019-04-02 15:39:46,075 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:48,715 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310156830001B
-2019-04-02 15:39:51,481 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:53,310 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310738830001B
-2019-04-02 15:39:57,084 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:39:58,851 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310659750001B
-2019-04-02 15:40:02,098 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:03,869 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310576660001B
-2019-04-02 15:40:07,134 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:08,985 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310663350001B
-2019-04-02 15:40:12,337 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:14,610 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310273690001B
-2019-04-02 15:40:17,393 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:19,127 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310506190001B
-2019-04-02 15:40:22,406 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:24,166 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310004820001B
-2019-04-02 15:40:27,427 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:29,267 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632310001B
-2019-04-02 15:40:33,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:35,348 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739840001B
-2019-04-02 15:40:39,146 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:41,328 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739480001B
-2019-04-02 15:40:46,138 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:47,616 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310509090001B
-2019-04-02 15:40:51,501 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:53,273 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309809570001B
-2019-04-02 15:40:57,054 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:40:58,430 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310574060001B
-2019-04-02 15:41:02,197 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:03,598 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310526180001B
-2019-04-02 15:41:07,339 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:09,464 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000308319480001B
-2019-04-02 15:41:13,311 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:14,833 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310571180001B
-2019-04-02 15:41:19,153 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:20,591 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664430001B
-2019-04-02 15:41:23,846 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:25,234 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310217850001B
-2019-04-02 15:41:27,963 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:29,343 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310449430001B
-2019-04-02 15:41:33,147 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:35,034 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310637820001B
-2019-04-02 15:41:39,006 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:40,659 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310504650001B
-2019-04-02 15:41:43,909 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:45,346 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310565470001B
-2019-04-02 15:41:49,145 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:50,622 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310740100001B
-2019-04-02 15:41:54,439 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:41:56,172 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310372340001B
-2019-04-02 15:41:58,997 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:00,052 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310380170001B
-2019-04-02 15:42:03,935 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:05,309 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310576050001B
-2019-04-02 15:42:09,082 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:10,404 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310373820001B
-2019-04-02 15:42:15,255 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:16,627 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569440001B
-2019-04-02 15:42:19,947 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:21,323 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310664890001G
-2019-04-02 15:42:26,235 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
-2019-04-02 15:42:27,573 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310575680001B
-2019-04-02 15:42:30,872 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:31,933 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632970001B
-2019-04-02 15:42:35,213 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:37,389 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632610001B
-2019-04-02 15:42:41,287 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:42,695 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310446080001B
-2019-04-02 15:42:46,036 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:47,884 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310663830001B
-2019-04-02 15:42:51,822 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:53,337 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577330001B
-2019-04-02 15:42:57,600 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:42:59,107 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666920001B
-2019-04-02 15:43:02,945 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:04,427 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310360700002B
-2019-04-02 15:43:07,651 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:09,262 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310729770001B
-2019-04-02 15:43:12,897 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:14,633 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310365800001B
-2019-04-02 15:43:17,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:19,445 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310280910001B
-2019-04-02 15:43:22,376 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:43:22,650 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310280910001B
-2019-04-02 15:43:25,829 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:27,076 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000309792250004B
-2019-04-02 15:43:30,304 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:32,031 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310411750001B
-2019-04-02 15:43:35,151 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:36,165 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310451620001B
-2019-04-02 15:43:38,795 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:40,085 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577760001B
-2019-04-02 15:43:43,195 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:43:43,495 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310577760001B
-2019-04-02 15:43:47,253 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:48,309 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564630001B
-2019-04-02 15:43:52,036 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:43:53,206 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310447880001B
-2019-04-02 15:43:56,662 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:43:56,968 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310447880001B
-2019-04-02 15:44:00,105 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:01,835 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310633210001B
-2019-04-02 15:44:05,988 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:07,335 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310195310001B
-2019-04-02 15:44:12,128 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:13,468 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310750110001G
-2019-04-02 15:44:16,670 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
-2019-04-02 15:44:19,189 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310733290001B
-2019-04-02 15:44:22,308 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:24,340 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310507070001B
-2019-04-02 15:44:27,469 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:29,151 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310758830001B
-2019-04-02 15:44:32,405 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:34,149 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310735860001B
-2019-04-02 15:44:41,508 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:42,839 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310679040001B
-2019-04-02 15:44:47,487 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:48,865 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310344450001B
-2019-04-02 15:44:51,471 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:53,057 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310449800001B
-2019-04-02 15:44:55,717 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:44:57,446 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310679450001B
-2019-04-02 15:45:00,139 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:01,772 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310503850001B
-2019-04-02 15:45:04,886 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:07,435 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310734790001B
-2019-04-02 15:45:11,067 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:13,723 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310093110001B
-2019-04-02 15:45:17,443 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:19,228 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310755620001B
-2019-04-02 15:45:22,466 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:24,197 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505630001B
-2019-04-02 15:45:26,838 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:29,189 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310506870001B
-2019-04-02 15:45:31,798 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:34,547 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310567460001B
-2019-04-02 15:45:37,181 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:38,482 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310736790001B
-2019-04-02 15:45:42,230 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:44,782 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310501010001B
-2019-04-02 15:45:47,474 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:50,045 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631950001B
-2019-04-02 15:45:52,659 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:54,337 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310604710001B
-2019-04-02 15:45:56,956 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:45:58,975 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310450390001B
-2019-04-02 15:46:01,616 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:03,287 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310432570001B
-2019-04-02 15:46:05,980 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:07,327 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310675530001B
-2019-04-02 15:46:10,535 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:13,241 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310444740001B
-2019-04-02 15:46:16,380 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:18,067 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310127070001B
-2019-04-02 15:46:20,681 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:22,341 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285330770001B
-2019-04-02 15:46:26,519 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:46:27,530 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310344220001B
-2019-04-02 15:46:30,200 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:31,786 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310734600001B
-2019-04-02 15:46:34,478 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:37,142 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310275260002B
-2019-04-02 15:46:40,851 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:41,876 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310636780001B
-2019-04-02 15:46:45,000 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:45,996 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310635100001B
-2019-04-02 15:46:49,202 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:51,607 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310279940001B
-2019-04-02 15:46:54,911 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:46:56,777 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739060001B
-2019-04-02 15:46:59,888 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:01,221 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310672430001G
-2019-04-02 15:47:04,878 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
-2019-04-02 15:47:07,078 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285280530001B
-2019-04-02 15:47:09,238 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:47:11,286 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310749500001B
-2019-04-02 15:47:15,625 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:16,982 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285297630001B
-2019-04-02 15:47:19,162 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:47:20,858 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310337940001B
-2019-04-02 15:47:23,996 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:25,311 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505750001B
-2019-04-02 15:47:28,961 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:30,630 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310515420001B
-2019-04-02 15:47:34,436 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:35,839 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285295470001B
-2019-04-02 15:47:38,107 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:47:39,850 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285316160001B
-2019-04-02 15:47:41,961 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:47:43,312 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458190001B
-2019-04-02 15:47:46,945 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:47:48,392 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458730001G
-2019-04-02 15:47:52,595 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
-2019-04-02 15:47:54,352 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285258980001B
-2019-04-02 15:47:57,092 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:47:58,458 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310163670001B
-2019-04-02 15:48:02,191 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:04,862 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310046180001B
-2019-04-02 15:48:07,992 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:09,303 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285306400001B
-2019-04-02 15:48:12,427 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:48:13,670 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310382780001B
-2019-04-02 15:48:16,971 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:18,615 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285370200001B
-2019-04-02 15:48:21,395 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:48:22,981 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310568330001B
-2019-04-02 15:48:26,087 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:27,375 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285268830001B
-2019-04-02 15:48:31,012 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
-2019-04-02 15:48:32,619 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310611290001G
-2019-04-02 15:48:36,316 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015995264
-2019-04-02 15:48:37,614 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310598720001B
-2019-04-02 15:48:41,413 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:43,887 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310580670001B
-2019-04-02 15:48:47,052 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:48:49,290 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310597490001B
-2019-04-02 15:49:36,576 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:49:38,576 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310572880001B
-2019-04-02 15:50:39,279 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:50:40,652 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
-2019-04-02 15:51:09,675 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 15:51:09,986 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
-2019-04-02 15:51:45,579 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
-2019-04-02 15:51:49,847 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 15:51:50,137 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310572880001B
-2019-04-02 15:51:54,415 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:51:55,832 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632190001B
-2019-04-02 15:52:00,987 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:52:02,776 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310686870001B
-2019-04-02 15:53:08,111 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:53:09,508 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310439920001B
-2019-04-02 15:54:03,117 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:54:04,744 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310373350001B
-2019-04-02 15:54:55,650 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:54:57,426 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310407190001B
-2019-04-02 15:55:13,394 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 15:55:13,751 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310407190001B
-2019-04-02 15:56:06,037 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:56:07,424 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569760001B
-2019-04-02 15:57:03,438 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:57:04,905 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
-2019-04-02 15:57:32,704 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 15:57:33,051 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
-2019-04-02 15:58:20,242 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
-2019-04-02 15:58:24,179 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 15:58:24,470 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569760001B
-2019-04-02 15:58:27,752 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:58:31,198 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310631460001B
-2019-04-02 15:58:34,813 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 15:58:36,240 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310668920001B
-2019-04-02 15:59:33,311 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 15:59:34,372 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310628400001B
-2019-04-02 16:00:31,668 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:00:36,166 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310569340001B
-2019-04-02 16:01:31,228 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:01:32,722 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310458600001B
-2019-04-02 16:02:30,517 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:02:32,249 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310677010001B
-2019-04-02 16:02:50,911 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 16:02:51,253 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310677010001B
-2019-04-02 16:03:47,350 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:03:49,067 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
-2019-04-02 16:04:26,129 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 16:04:26,547 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
-2019-04-02 16:05:23,654 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 16:05:24,010 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310570870001B
-2019-04-02 16:05:27,860 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 16:05:29,535 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
-2019-04-02 16:05:42,565 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 16:05:42,973 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
-2019-04-02 16:05:46,520 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
-2019-04-02 16:05:46,875 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
-2019-04-02 16:07:00,220 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:07:01,351 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
-2019-04-02 16:07:38,176 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 16:07:38,510 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
-2019-04-02 16:08:28,317 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred. Reprocessing the RMA...
-2019-04-02 16:08:31,109 WARN c.n.r.p.ReceivePart [main] The Pallet ID element could not be read, re-processing the RMA...
-2019-04-02 16:08:31,433 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310281290001B
-2019-04-02 16:08:35,072 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 16:08:37,093 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310564840001B
-2019-04-02 16:08:41,341 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015993779
-2019-04-02 16:08:43,733 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310045490001B
-2019-04-02 16:09:37,287 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:09:38,357 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310632060001B
-2019-04-02 16:11:37,767 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:11:39,175 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310715110001B
-2019-04-02 16:12:29,569 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:12:30,989 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310342800001B
-2019-04-02 16:13:53,832 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:13:54,878 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310739180001B
-2019-04-02 16:14:59,475 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:15:00,973 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310500090001B
-2019-04-02 16:16:00,965 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:16:02,258 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310730970001B
-2019-04-02 16:17:02,230 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:17:04,283 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666350001B
-2019-04-02 16:18:04,255 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:18:05,394 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505350001B
-2019-04-02 16:19:20,163 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:19:21,336 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310362680001B
-2019-04-02 16:20:27,531 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:20:28,591 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310505330001B
-2019-04-02 16:21:51,351 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:21:52,568 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310670630001G
-2019-04-02 16:22:15,706 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015995264
-2019-04-02 16:22:17,180 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310499530001B
-2019-04-02 16:23:39,750 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:23:41,152 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310755020001B
-2019-04-02 16:24:34,566 INFO c.n.r.p.ReceivePart [main] Part has been successfully received and located on Pallet ID 1015993779
-2019-04-02 16:24:35,677 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000310666690001B
-2019-04-02 16:24:38,298 WARN c.n.r.p.ReceivePart [main] Part with given Return Order Number is already linked to unclosed Pallet ID 1015961738
-2019-04-02 16:37:54,982 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Pallet List page
-2019-04-02 16:38:06,314 INFO c.n.r.p.PalletList [main] Sealing pallets
-2019-04-02 16:38:06,314 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015993786
-2019-04-02 16:38:28,681 INFO c.n.r.p.PalletList [main] Pallet ID 1015993786 sealed
-2019-04-02 16:38:38,840 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015993779
-2019-04-02 16:39:11,935 INFO c.n.r.p.PalletList [main] Pallet ID 1015993779 sealed
-2019-04-02 16:38:38,840 INFO c.n.r.p.PalletList [main] Processing pallet ID 1015995264
-2019-04-02 16:39:11,935 INFO c.n.r.p.PalletList [main] Pallet ID 1015995264 sealed
-2019-04-02 16:39:22,102 INFO c.n.r.p.PalletList [main] Finished sealing process
-2019-04-02 16:39:22,104 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-20 14:49:48,387 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-20 14:49:52,924 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-20 14:49:57,640 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-20 14:50:05,255 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-20 14:50:05,861 INFO c.n.r.ReturnOrdersApplication [main] Total 4 records
+2019-12-20 14:50:06,903 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-20 14:50:07,280 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285039110001B
+2019-12-20 14:50:21,058 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-12-20 14:50:29,949 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-20 14:50:37,539 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285039110001B
+2019-12-20 14:50:39,759 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-20 14:50:40,727 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032120001B
+2019-12-20 14:50:42,905 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-20 14:50:43,984 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284695600001B
+2019-12-20 14:50:45,095 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-20 14:50:46,034 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285039110001B
+2019-12-20 14:50:48,192 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-20 14:50:50,488 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-20 14:50:50,495 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 20:20:44,424 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:20:49,422 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:20:54,057 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:21:02,326 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 20:21:03,018 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 20:21:04,059 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 20:21:04,390 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 20:21:06,563 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:08,263 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 20:21:15,268 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 20:21:17,429 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:18,426 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 20:21:20,600 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:21,764 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 20:21:23,914 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:24,912 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 20:21:27,068 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:28,098 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 20:21:30,277 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:31,307 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 20:21:33,458 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:34,489 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 20:21:36,629 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:37,678 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 20:21:39,827 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:40,866 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 20:21:43,018 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:44,001 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 20:21:46,129 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:47,120 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 20:21:49,260 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:50,243 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 20:21:52,410 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:53,399 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 20:21:55,553 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:56,552 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 20:21:58,716 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:21:59,746 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 20:22:01,988 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:02,925 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 20:22:05,087 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:06,130 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 20:22:08,312 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:09,319 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 20:22:11,464 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:12,458 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 20:22:14,624 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:15,596 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 20:22:17,754 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:18,730 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 20:22:20,885 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:21,807 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 20:22:23,963 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:24,937 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 20:22:27,097 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:28,055 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 20:22:30,215 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:31,218 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 20:22:33,346 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:34,358 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 20:22:36,504 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:37,540 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 20:22:39,665 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:40,648 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 20:22:41,733 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:42,731 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 20:22:44,823 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:45,829 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 20:22:47,921 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:48,914 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 20:22:50,998 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:51,934 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 20:22:54,023 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:55,022 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 20:22:57,161 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:22:58,108 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 20:23:00,247 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:01,225 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 20:23:03,391 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:04,320 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 20:23:06,465 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:07,507 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 20:23:09,663 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:10,648 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 20:23:12,776 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:13,801 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 20:23:15,929 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:17,154 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 20:23:19,262 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:20,277 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 20:23:22,380 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:23,474 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 20:23:24,629 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:25,672 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 20:23:27,748 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:28,712 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 20:23:30,858 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:32,157 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 20:23:34,288 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:35,263 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 20:23:37,468 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:38,503 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 20:23:40,612 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:41,573 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780002B
+2019-12-23 20:23:43,734 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:44,792 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780001B
+2019-12-23 20:23:46,952 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:47,942 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141340001B
+2019-12-23 20:23:50,085 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:51,092 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285238950001G
+2019-12-23 20:23:53,267 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:54,252 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285113130001B
+2019-12-23 20:23:56,434 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:57,476 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285213120001B
+2019-12-23 20:23:58,086 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:23:59,342 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285257520001B
+2019-12-23 20:24:01,526 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:02,540 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285184450001B
+2019-12-23 20:24:04,710 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:05,677 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360002B
+2019-12-23 20:24:07,829 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:08,862 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285203610001B
+2019-12-23 20:24:09,466 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:10,494 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360003B
+2019-12-23 20:24:12,644 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:13,720 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360001B
+2019-12-23 20:24:14,868 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 20:24:15,568 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-23 20:24:15,578 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 20:37:52,448 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:37:56,745 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:38:00,494 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:38:09,554 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 20:38:10,171 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 20:38:10,185 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 20:39:21,560 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:39:26,734 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:39:30,848 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:39:39,725 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 20:39:40,331 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 20:39:40,343 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 20:40:07,279 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:40:12,129 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:40:16,611 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:42:08,701 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:42:13,475 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:42:17,741 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:43:03,055 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:43:07,593 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:43:11,853 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:45:51,484 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:45:56,051 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:45:59,878 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:48:12,899 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:48:20,458 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 20:48:24,905 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 20:53:39,991 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:57:46,346 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 20:58:48,429 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 20:59:12,704 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:00:10,878 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:00:55,722 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:01:00,783 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:01:03,404 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:01:07,327 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:01:16,542 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:01:17,140 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:01:17,153 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:03:29,753 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:04:20,077 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:05:22,004 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:05:28,671 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:05:31,320 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:05:35,809 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:05:45,295 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:05:45,887 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:05:45,899 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:06:47,423 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:07:48,063 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:08:18,421 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:09:58,316 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:10:48,779 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:11:06,589 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:11:12,141 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:11:14,742 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:11:19,631 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:11:26,261 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:11:26,875 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:11:27,913 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:11:28,278 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:11:31,607 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred in search part. Reprocessing the RMA...
+2019-12-23 21:11:32,632 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:12:07,253 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:12:24,989 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:12:32,963 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:12:34,516 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:13:12,154 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:13:17,398 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:13:20,067 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:13:26,052 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:13:35,238 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:13:35,838 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:13:35,853 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:14:57,778 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:15:02,793 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:15:05,412 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:15:10,151 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:15:30,749 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:15:31,350 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:15:31,363 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:15:53,258 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:15:57,902 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:16:00,536 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:16:03,714 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:16:17,282 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:16:22,124 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:16:24,779 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:16:29,147 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:16:35,942 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:16:36,562 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:16:36,578 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:16:36,671 ERROR c.n.r.p.ReceivePart [main] The session has been closed. Returning to Login
+2019-12-23 21:16:48,161 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:17:42,014 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:17:46,245 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:17:48,868 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:17:52,631 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:18:01,510 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:18:02,105 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:18:02,117 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:19:19,143 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:19:26,520 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:19:31,256 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:20:17,788 INFO c.n.r.p.Home [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:20:17,846 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:20:18,487 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:20:18,501 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:20:18,820 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:20:29,225 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred in search part. Reprocessing the RMA...
+2019-12-23 21:20:30,182 ERROR c.n.r.p.ReceivePart [main] The session has been closed. Returning to Login
+2019-12-23 21:20:50,068 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 21:20:57,907 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:20:59,061 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:21:00,080 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 21:21:02,259 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:21:03,257 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 21:21:05,402 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:21:06,460 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 21:21:08,639 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:21:09,668 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 21:21:11,773 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:21:46,720 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:21:53,883 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:21:58,501 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:22:07,804 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:22:08,378 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:22:08,390 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:29:57,286 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:30:04,086 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:30:07,555 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:30:14,779 INFO c.n.r.p.Home [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:30:14,804 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:30:15,423 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:30:30,479 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:30:30,836 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:30:32,289 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-12-23 21:30:33,691 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:30:35,872 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:30:36,953 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 21:30:39,111 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:30:40,186 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 21:30:41,291 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:34:17,790 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:36:14,423 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:37:24,021 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:38:01,510 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:39:52,830 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:40:36,488 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:40:44,150 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:40:49,433 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:40:56,634 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:40:57,261 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:40:58,878 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:40:59,210 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:41:01,623 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred in search part. Reprocessing the RMA...
+2019-12-23 21:41:02,645 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:42:45,023 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:44:08,769 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:45:35,543 INFO c.n.r.ReturnOrdersApplication [main] --- [ Deleting cookies... ] ---
+2019-12-23 21:52:04,966 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 21:52:12,925 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 21:52:17,652 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 21:52:28,332 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 21:52:28,928 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 21:52:30,482 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 21:52:30,839 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:52:33,705 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred in search part. Reprocessing the RMA...
+2019-12-23 21:52:34,764 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 21:52:35,428 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:36,462 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 21:52:38,638 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:39,684 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 21:52:41,793 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:42,866 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 21:52:45,032 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:46,107 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 21:52:48,281 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:49,356 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 21:52:51,593 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:52,641 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 21:52:54,822 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:56,057 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 21:52:58,262 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:52:59,283 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 21:53:01,482 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:02,524 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 21:53:04,693 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:05,729 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 21:53:07,895 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:08,914 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 21:53:11,076 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:12,100 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 21:53:14,242 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:15,263 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 21:53:17,429 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:18,451 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 21:53:20,609 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:21,635 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 21:53:23,783 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:24,777 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 21:53:26,935 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:27,953 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 21:53:30,091 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:31,107 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 21:53:33,264 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:34,264 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 21:53:36,425 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:37,436 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 21:53:39,588 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:40,613 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 21:53:42,776 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:43,774 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 21:53:45,956 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:46,957 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 21:53:49,092 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:50,068 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 21:53:52,233 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:53,273 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 21:53:55,414 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:56,727 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 21:53:58,861 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:53:59,877 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 21:54:02,057 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:03,036 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 21:54:05,189 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:06,204 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 21:54:08,372 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:09,371 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 21:54:11,524 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:12,535 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 21:54:14,697 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:15,681 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 21:54:17,853 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:18,862 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 21:54:21,004 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:21,977 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 21:54:24,107 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:25,106 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 21:54:27,273 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:28,265 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 21:54:30,413 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:31,399 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 21:54:33,560 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:34,542 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 21:54:36,705 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:37,709 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 21:54:39,874 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:40,862 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 21:54:43,021 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:44,020 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 21:54:46,192 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:47,166 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 21:54:49,326 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:50,306 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 21:54:52,465 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:53,430 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 21:54:55,588 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:56,596 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 21:54:58,740 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:54:59,706 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 21:55:01,862 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 21:55:02,854 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 21:55:05,038 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:43:20,224 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 22:43:30,246 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 22:43:34,894 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 22:43:44,112 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 22:43:44,692 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 22:43:44,707 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 22:44:04,020 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 22:44:11,106 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 22:44:15,325 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 22:44:24,325 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 22:44:24,925 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 22:44:24,939 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 22:46:32,468 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 22:46:40,363 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 22:46:44,954 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 22:46:54,090 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 22:46:54,687 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 22:46:54,701 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 22:47:21,387 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 22:47:28,737 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 22:47:33,232 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 22:47:38,531 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 22:47:39,131 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 22:47:39,146 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 22:47:39,227 ERROR c.n.r.p.ReceivePart [main] The session has been closed. Returning to Login
+2019-12-23 22:47:50,638 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 22:47:51,785 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:47:52,889 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 22:47:55,073 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:47:56,069 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 22:47:58,241 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:47:59,218 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 22:48:01,381 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:02,404 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 22:48:04,586 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:05,564 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 22:48:07,732 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:08,751 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 22:48:10,923 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:11,878 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 22:48:14,011 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:15,007 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 22:48:17,193 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:18,163 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 22:48:20,325 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:21,295 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 22:48:23,430 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:24,381 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 22:48:26,543 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:27,518 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 22:48:29,657 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:30,701 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 22:48:32,877 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:33,906 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 22:48:36,058 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:37,023 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 22:48:39,142 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:40,124 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 22:48:42,283 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:43,251 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 22:48:45,411 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:46,384 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 22:48:48,555 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:49,525 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 22:48:51,669 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:52,639 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 22:48:54,764 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:55,729 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 22:48:57,902 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:48:58,888 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 22:49:01,025 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:02,020 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 22:49:04,168 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:05,131 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 22:49:07,293 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:08,260 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 22:49:10,411 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:11,515 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 22:49:12,659 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:13,587 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 22:49:15,752 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:16,714 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 22:49:18,846 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:19,793 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 22:49:21,962 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:22,953 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 22:49:25,103 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:26,043 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 22:49:28,204 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:29,182 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 22:49:31,359 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:32,312 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 22:49:34,489 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:35,561 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 22:49:37,718 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:39,006 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 22:49:41,129 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:42,152 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 22:49:44,303 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:45,282 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 22:49:47,424 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:48,735 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 22:49:50,868 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:51,840 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 22:49:54,000 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:55,018 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 22:49:57,175 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:49:58,149 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 22:50:00,284 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:01,305 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 22:50:03,451 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:04,473 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 22:50:06,630 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:07,650 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 22:50:09,785 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:11,980 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 22:50:19,733 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 22:50:21,923 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:22,936 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 22:50:25,083 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:26,103 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 22:50:28,247 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:29,257 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780002B
+2019-12-23 22:50:31,440 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:32,460 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780001B
+2019-12-23 22:50:34,616 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:35,621 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141340001B
+2019-12-23 22:50:37,744 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:38,767 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285238950001G
+2019-12-23 22:50:40,924 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:42,012 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285113130001B
+2019-12-23 22:50:42,661 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:43,666 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285213120001B
+2019-12-23 22:50:45,795 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:46,765 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285257520001B
+2019-12-23 22:50:48,880 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:49,860 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285184450001B
+2019-12-23 22:50:52,007 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:52,978 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360002B
+2019-12-23 22:50:55,144 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:56,153 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285203610001B
+2019-12-23 22:50:58,293 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:50:59,278 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360003B
+2019-12-23 22:51:01,439 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:51:02,451 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360001B
+2019-12-23 22:51:04,608 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 22:51:05,342 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-23 22:51:05,350 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 23:00:55,398 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:01:02,494 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:01:06,955 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:01:16,080 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:01:16,081 ERROR c.n.r.u.ReadExcel [main] The system can not find the file in the specified path: C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:07:26,966 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:07:34,446 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:07:39,285 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:07:48,646 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:07:48,647 ERROR c.n.r.u.ReadExcel [main] The system can not find the file in the specified path: C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:17:03,223 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:17:10,507 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:17:14,764 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:17:24,648 ERROR c.n.r.p.Home [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 23:17:29,618 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:17:29,628 ERROR c.n.r.u.ReadExcel [main] The system can not find the file in the specified path: C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:18:23,063 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:18:30,943 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:18:35,831 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:18:45,213 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:18:45,866 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:18:45,883 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 23:19:32,275 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:19:39,636 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:19:44,339 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:19:48,693 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:19:49,278 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:19:49,291 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 23:19:49,364 ERROR c.n.r.p.ReceivePart [main] The session has been closed. Returning to Login
+2019-12-23 23:19:59,580 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 23:20:01,693 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:02,747 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 23:20:04,838 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:05,843 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 23:20:07,930 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:08,972 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 23:20:11,061 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:13,001 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 23:20:20,774 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 23:20:21,368 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:22,321 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 23:20:24,487 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:25,490 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 23:20:27,629 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:28,617 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 23:20:30,801 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:31,866 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 23:20:34,034 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:35,045 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 23:20:37,267 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:38,310 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 23:20:40,499 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:41,485 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 23:20:43,630 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:44,647 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 23:20:46,807 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:47,791 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 23:20:49,956 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:51,003 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 23:20:52,177 WARN c.n.r.p.ReceivePart [main] StaleElementReferenceException.It was not possible to find the element, reprocessing the RMA...
+2019-12-23 23:20:53,159 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 23:20:55,325 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:56,339 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 23:20:58,508 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:20:59,488 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 23:21:01,686 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:02,760 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 23:21:04,898 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:05,883 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 23:21:08,052 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:09,078 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 23:21:11,229 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:12,249 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 23:21:14,432 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:15,440 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 23:21:17,579 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:18,542 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 23:21:20,704 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:21,720 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 23:21:23,909 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:24,900 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 23:21:27,008 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:28,013 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 23:21:30,187 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:31,183 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 23:21:33,362 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:34,403 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 23:21:36,577 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:37,577 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 23:21:39,751 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:40,765 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 23:21:42,925 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:43,917 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 23:21:46,079 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:47,104 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 23:21:49,266 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:50,502 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 23:21:53,285 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:54,300 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 23:21:55,435 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:56,397 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 23:21:58,569 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:21:59,581 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 23:22:01,733 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:02,715 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 23:22:04,869 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:05,875 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 23:22:08,040 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:08,988 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 23:22:11,146 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:12,175 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 23:22:14,330 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:15,261 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 23:22:17,402 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:18,414 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 23:22:20,583 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:21,575 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 23:22:23,726 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:24,740 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 23:22:26,879 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:27,863 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 23:22:30,009 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:31,020 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 23:22:33,181 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:34,165 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 23:22:36,363 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:37,378 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 23:22:39,537 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:40,491 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780002B
+2019-12-23 23:22:42,661 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:43,670 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780001B
+2019-12-23 23:22:45,834 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:46,893 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141340001B
+2019-12-23 23:22:49,081 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:50,100 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285238950001G
+2019-12-23 23:22:52,180 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:53,173 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285113130001B
+2019-12-23 23:22:54,776 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:22:57,478 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285213120001B
+2019-12-23 23:22:59,674 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:00,697 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285257520001B
+2019-12-23 23:23:01,842 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:02,841 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285184450001B
+2019-12-23 23:23:05,098 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:06,062 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360002B
+2019-12-23 23:23:07,782 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:08,759 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285203610001B
+2019-12-23 23:23:09,907 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:10,876 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360003B
+2019-12-23 23:23:13,077 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:14,071 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360001B
+2019-12-23 23:23:15,776 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:23:16,778 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-23 23:23:16,784 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 23:24:22,075 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:24:29,424 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:24:33,733 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:24:43,253 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:24:43,868 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:24:43,881 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 23:34:34,857 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:34:42,345 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:34:46,443 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:34:56,698 ERROR c.n.r.p.Home [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 23:35:01,770 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:35:02,550 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:35:03,094 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 23:35:03,471 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 23:35:04,610 WARN c.n.r.p.ReceivePart [main] It was not possible to find element ship to location, reprocessing the RMA...
+2019-12-23 23:35:06,605 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 23:35:09,608 ERROR c.n.r.p.ReceivePart [main] A StaleElementReferenceException ocurred in search part. Reprocessing the RMA...
+2019-12-23 23:35:12,144 ERROR c.n.r.p.ReceivePart [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 23:35:19,879 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 23:35:22,063 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:23,143 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 23:35:25,346 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:26,405 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 23:35:28,525 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:29,523 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 23:35:31,683 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:32,683 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 23:35:34,798 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:35,899 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 23:35:38,095 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:39,128 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 23:35:41,291 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:42,315 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 23:35:44,497 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:45,519 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 23:35:47,675 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:48,651 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 23:35:50,764 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:52,332 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 23:35:53,461 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:54,415 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 23:35:56,574 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:35:57,579 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 23:35:59,767 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:00,700 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 23:36:02,878 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:03,864 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 23:36:06,049 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:07,004 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 23:36:09,148 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:10,191 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 23:36:12,364 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:13,314 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 23:36:15,478 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:16,463 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 23:36:18,625 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:19,553 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 23:36:21,701 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:22,703 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 23:36:24,894 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:25,869 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 23:36:28,016 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:29,024 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 23:36:31,175 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:32,124 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 23:36:34,311 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:35,277 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 23:36:37,396 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:38,343 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 23:36:40,474 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:41,435 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 23:36:43,612 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:44,568 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 23:36:46,706 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:47,700 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 23:36:49,826 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:50,756 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 23:36:52,922 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:53,882 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 23:36:56,002 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:36:57,036 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 23:36:59,188 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:00,210 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 23:37:02,372 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:03,292 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 23:37:05,455 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:06,436 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 23:37:08,563 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:09,491 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 23:37:11,677 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:12,860 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 23:37:15,035 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:15,987 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 23:37:18,161 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:19,321 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 23:37:21,478 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:22,418 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 23:37:24,620 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:25,613 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 23:37:27,771 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:28,741 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 23:37:30,901 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:31,895 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 23:37:34,053 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:35,074 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 23:37:35,649 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:37,164 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 23:37:39,307 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:40,230 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 23:37:42,393 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:43,327 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 23:37:45,485 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:46,408 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 23:37:48,574 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:49,589 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780002B
+2019-12-23 23:37:51,753 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:52,707 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780001B
+2019-12-23 23:37:54,879 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:55,874 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141340001B
+2019-12-23 23:37:58,040 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:37:59,026 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285238950001G
+2019-12-23 23:38:01,159 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:02,146 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285113130001B
+2019-12-23 23:38:04,321 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:05,315 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285213120001B
+2019-12-23 23:38:07,498 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:08,485 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285257520001B
+2019-12-23 23:38:10,621 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:11,565 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285184450001B
+2019-12-23 23:38:13,671 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:14,780 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360002B
+2019-12-23 23:38:16,946 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:17,896 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285203610001B
+2019-12-23 23:38:20,058 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:21,086 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360003B
+2019-12-23 23:38:23,273 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:24,272 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360001B
+2019-12-23 23:38:26,415 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:38:27,138 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-23 23:38:27,144 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 23:40:50,901 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:41:00,617 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:41:12,801 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:41:22,264 ERROR c.n.r.p.Home [main] A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/
+2019-12-23 23:41:27,258 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:41:27,885 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:41:27,900 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-23 23:41:28,211 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-23 23:41:29,938 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:30,978 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-23 23:41:33,115 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:34,157 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132960001B
+2019-12-23 23:41:35,821 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:36,782 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285157030001B
+2019-12-23 23:41:37,952 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:38,980 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284918240001B
+2019-12-23 23:41:41,725 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:42,727 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285150360001B
+2019-12-23 23:41:43,919 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:45,034 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285153140001B
+2019-12-23 23:41:46,747 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:47,721 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285032470001B
+2019-12-23 23:41:48,905 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:49,875 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283287430002B
+2019-12-23 23:41:52,065 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:53,032 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285074130001B
+2019-12-23 23:41:55,208 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:56,236 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000283903840001B
+2019-12-23 23:41:57,952 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:41:59,099 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000284850640001B
+2019-12-23 23:42:00,801 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:01,767 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130002G
+2019-12-23 23:42:02,945 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:03,940 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285250080001B
+2019-12-23 23:42:06,094 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:07,087 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285243970001B
+2019-12-23 23:42:08,799 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:09,790 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141760001B
+2019-12-23 23:42:10,938 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:11,899 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285069000001B
+2019-12-23 23:42:14,119 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:15,100 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285161870001B
+2019-12-23 23:42:16,791 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:17,811 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590001B
+2019-12-23 23:42:19,508 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:20,452 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285132660001B
+2019-12-23 23:42:22,574 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:23,569 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285072590002B
+2019-12-23 23:42:24,760 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:25,733 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950002B
+2019-12-23 23:42:26,896 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:27,903 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950014B
+2019-12-23 23:42:30,068 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:30,998 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950003B
+2019-12-23 23:42:33,157 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:34,091 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950017B
+2019-12-23 23:42:35,763 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:36,733 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950011B
+2019-12-23 23:42:37,845 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:39,202 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950012B
+2019-12-23 23:42:40,913 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:41,939 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950005B
+2019-12-23 23:42:44,135 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:45,112 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950006B
+2019-12-23 23:42:46,804 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:47,818 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950018B
+2019-12-23 23:42:49,501 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:50,510 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950019B
+2019-12-23 23:42:52,690 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:53,711 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950004B
+2019-12-23 23:42:54,827 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:55,860 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950015B
+2019-12-23 23:42:57,517 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:42:58,570 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950016B
+2019-12-23 23:42:59,705 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:00,789 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950013B
+2019-12-23 23:43:01,951 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:02,951 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285101780001B
+2019-12-23 23:43:05,108 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:06,308 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000282916950001B
+2019-12-23 23:43:07,995 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:09,018 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285197780001B
+2019-12-23 23:43:11,736 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:12,754 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285125580001B
+2019-12-23 23:43:13,928 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:14,980 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285139130001B
+2019-12-23 23:43:17,150 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:18,125 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285082680001B
+2019-12-23 23:43:19,836 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:20,833 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285146540001G
+2019-12-23 23:43:23,033 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:24,096 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285183490001B
+2019-12-23 23:43:25,764 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:26,775 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285181980001B
+2019-12-23 23:43:27,967 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:28,989 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285186510001B
+2019-12-23 23:43:31,140 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:32,104 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285260490001B
+2019-12-23 23:43:33,800 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:35,111 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285271310001B
+2019-12-23 23:43:36,843 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:37,821 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285261960001G
+2019-12-23 23:43:40,021 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:41,028 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780002B
+2019-12-23 23:43:43,768 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:44,732 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285214780001B
+2019-12-23 23:43:45,904 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:46,886 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285141340001B
+2019-12-23 23:43:49,070 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:50,099 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285238950001G
+2019-12-23 23:43:51,786 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:52,810 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285113130001B
+2019-12-23 23:43:54,011 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:55,055 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285213120001B
+2019-12-23 23:43:56,772 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:57,753 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285257520001B
+2019-12-23 23:43:58,912 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:43:59,946 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285184450001B
+2019-12-23 23:44:02,105 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:44:03,104 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360002B
+2019-12-23 23:44:04,791 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:44:05,705 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285203610001B
+2019-12-23 23:44:06,900 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:44:07,913 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360003B
+2019-12-23 23:44:10,104 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:44:11,305 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285231360001B
+2019-12-23 23:44:12,978 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-23 23:44:13,720 WARN c.n.r.ReturnOrdersApplication [main] There are no pallets to seal.
+2019-12-23 23:44:13,724 INFO c.n.r.ReturnOrdersApplication [main] --- [ FINISH TRACE OF EXECUTION OF PROCESS OF RETURNS OF ORDERS ] ---
+2019-12-23 23:46:42,006 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:46:48,870 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:46:53,980 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:47:00,384 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:47:00,385 ERROR c.n.r.u.ReadExcel [main] The system can not find the file in the specified path: C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:47:43,692 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-23 23:47:50,952 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-23 23:47:54,590 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-23 23:48:03,523 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-23 23:48:04,112 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-23 23:48:04,124 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-27 10:43:06,930 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 10:43:15,242 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 10:43:19,130 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 10:44:37,314 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 10:44:45,467 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 10:44:50,480 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 10:47:35,977 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 10:47:43,169 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 10:47:47,568 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 10:50:17,644 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 10:50:25,432 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 10:50:29,377 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 10:53:43,491 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 10:53:51,550 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 10:53:55,721 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 10:54:02,348 INFO c.n.r.ReturnOrdersApplication [main] Reading the excel file from the path C:/Users/victor.bedmarlam/Desktop/STS/workspace-sts/returnOrders/excel/test.xlsx
+2019-12-27 10:54:03,557 INFO c.n.r.ReturnOrdersApplication [main] Total 60 records
+2019-12-27 10:54:03,578 INFO c.n.r.ReturnOrdersApplication [main] Preparing the return orders
+2019-12-27 10:54:03,682 ERROR c.n.r.p.ReceivePart [main] The session has been closed. Returning to Login
+2019-12-27 10:54:17,587 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154660001B
+2019-12-27 10:54:18,818 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-27 10:54:21,050 INFO c.n.r.p.ReceivePart [main] Processing RMA 1000285154030001B
+2019-12-27 10:54:23,189 ERROR c.n.r.p.ReceivePart [main] Part with given Return Order Number does not exist
+2019-12-27 11:18:48,861 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:18:56,256 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:19:00,646 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:20:09,950 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:20:17,731 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:20:22,500 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:21:15,929 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:21:23,855 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:21:28,296 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:24:54,832 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:25:02,053 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:25:06,925 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:27:27,749 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:27:35,275 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:27:39,609 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:28:34,245 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:28:41,443 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:28:45,702 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page
+2019-12-27 11:29:19,297 INFO c.n.r.ReturnOrdersApplication [main] --- [ INITIALIZING THE TRACE OF THE ORDERS RETURN PROCESS ] ---
+2019-12-27 11:29:27,068 INFO c.n.r.ReturnOrdersApplication [main] Initializing access to the Login page
+2019-12-27 11:29:31,442 INFO c.n.r.ReturnOrdersApplication [main] Navigating to the Receive Part page

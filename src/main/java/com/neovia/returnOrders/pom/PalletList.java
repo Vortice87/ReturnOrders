@@ -79,10 +79,13 @@ public class PalletList {
 					i--;
 					continue;
 				}
-				
+	        	/**
+	        	 * Created by Victor Ulises Bedmar Lam on 04/04/2019.
+	        	 * DNI: 03130651Y
+	        	 */
 				LOGGER.info("Pallet ID " + palletList.get(i) + " sealed");
 			} catch (NoSuchElementException e) {
-				LOGGER.warn("No records were found or the pallet is closed");
+				LOGGER.warn("No records were found or the pallet was already closed.");
 			} catch (ElementNotVisibleException nv) {
 				LOGGER.error(nv.getMessage());
 				i--;

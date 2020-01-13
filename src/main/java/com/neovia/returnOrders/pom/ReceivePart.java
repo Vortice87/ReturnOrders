@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -67,12 +68,10 @@ public class ReceivePart {
 	public List<String> makeReturn(List<Devolution> devolutionList, Properties properties) {
 
 		List<String> palletList = new ArrayList<>();
-		boolean retryOrder = false;
 		for (int i = 0; i < devolutionList.size(); i++) {
 
 			String pallet = "";
 			String[] token = null;
-			//WaitForPageToLoad.waitForAlert(driver, 500);
 			WaitForPageToLoad.waitForLoad(driver);
 			WebElement error404 = null;
 			try {
@@ -82,39 +81,43 @@ public class ReceivePart {
 					LOGGER.error(
 							"A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/");
 					driver.get("https://spl.dhl.com/xdock/app/returnorder/");
-					WaitForPageToLoad.waitForAlert(driver, 500);
+					WaitForPageToLoad.waitForAlert(driver, 1000);
 				}
 			} catch (NoSuchElementException e) {
 				// CONTINUAMOS CON EL PROCESO
 			} 
-
+			
+			// CONTROLAMOS EL LOGOUT
 			try {
 				WebElement logout = driver.findElement(By.xpath("//h2"));
 				if (logout.getText().contains("Cierre") || logout.getText().contains("Logout")) {
 					// NOS VOLVEMOS A LOGEAR
 					LOGGER.error("The session has been closed. Returning to Login");
 					driver.get(baseURL);
+				    WaitForPageToLoad.waitForAlert(driver, 1000);
 					LoginPage loginPage = new LoginPage(driver);
 					loginPage.login(properties.getProperty("username"), properties.getProperty("password"));
 				    WaitForPageToLoad.waitForAlert(driver, 1000);
 					driver.get("https://spl.dhl.com/xdock/app/returnorder/");
-				    WaitForPageToLoad.waitForAlert(driver, 500);
+				    WaitForPageToLoad.waitForAlert(driver, 1000);
 				}
 			} catch (NoSuchElementException e) {
 				// CONTINUAMOS CON EL PROCESO
 			} 
-
+			
+			// CONTROLAMOS EL LOGOUT
 			try {
 				WebElement login = driver.findElement(By.xpath("//h3"));
 				if (login.getText().contains("Login") || login.getText().contains("")) {
 					// NOS VOLVEMOS A LOGEAR
 					LOGGER.error("The session has been closed. Returning to Login");
 					driver.get(baseURL);
+				    WaitForPageToLoad.waitForAlert(driver, 1000);
 					LoginPage loginPage = new LoginPage(driver);
 					loginPage.login(properties.getProperty("username"), properties.getProperty("password"));
 				    WaitForPageToLoad.waitForAlert(driver, 1000);
 					driver.get("https://spl.dhl.com/xdock/app/returnorder/");
-				    WaitForPageToLoad.waitForAlert(driver, 500);
+				    WaitForPageToLoad.waitForAlert(driver, 1000);
 				}
 			} catch (NoSuchElementException e) {
 				// CONTINUAMOS CON EL PROCESO
@@ -127,12 +130,16 @@ public class ReceivePart {
 					LOGGER.error(
 							"A 404 error has occurred, redirecting to the page : https://spl.dhl.com/xdock/app/returnorder/");
 					driver.get("https://spl.dhl.com/xdock/app/returnorder/");
-					WaitForPageToLoad.waitForAlert(driver, 500);
+					WaitForPageToLoad.waitForAlert(driver, 1000);
 				}
 			} catch (NoSuchElementException e) {
 				// CONTINUAMOS CON EL PROCESO
 			} 
 			
+			// CONTROLAMOS QUE ESTAMOS EN LA URL DE RETURN ORDER
+			if(!driver.getCurrentUrl().contains("https://spl.dhl.com/xdock/app/returnorder/")) {
+				driver.get("https://spl.dhl.com/xdock/app/returnorder/");
+			}
 			WaitForPageToLoad.waitForLoad(driver);
 
 			// 1.SEARCH PART
@@ -165,15 +172,18 @@ public class ReceivePart {
 				// AL ENCONTRAR EL ELEMENTO FEEDBACKPANELERROR LOGUEAMOS EL ERROR Y LA ORDEN Y
 				// SEGUIMOS CON LA SIGUIENTE
 				WebElement msgError = driver.findElement(By.cssSelector("div.alert-danger > div > div"));
-				LOGGER.warn(msgError.getText());
-				if (retryOrder) {
-					token = msgError.getText().split("ID");
-					pallet = token[1].trim();
-					palletList.add(pallet);
-					// ELIMINAMOS REPETIDOS
-					palletList = palletList.stream().distinct().collect(Collectors.toList());
-					retryOrder = false;
+				if(msgError.getText().contains("not exist")) {
+					LOGGER.error(msgError.getText());
+				} else {
+					LOGGER.warn(msgError.getText());
 				}
+					if(msgError.getText().contains("ID")) {
+						token = msgError.getText().split("ID");
+						pallet = token[1].trim();
+						palletList.add(pallet);
+						// ELIMINAMOS REPETIDOS
+						palletList = palletList.stream().distinct().collect(Collectors.toList());
+					}
 			} catch (NoSuchElementException e) {
 				// AL NO SALIR EL MENSAJE DE ERROR PROCESAMOS LA ORDEN
 				try {
@@ -227,7 +237,6 @@ public class ReceivePart {
 					driver.get("https://spl.dhl.com/xdock/app/returnorder/");
 					LOGGER.warn("The Pallet ID element could not be read, re-processing the RMA...");
 					i--;
-					retryOrder = true;
 					continue;
 				}
 				// GUARDAMOS EL NUMERO DE PALLET
@@ -236,6 +245,11 @@ public class ReceivePart {
 				palletList.add(pallet);
 				// ELIMINAMOS REPETIDOS
 				palletList = palletList.stream().distinct().collect(Collectors.toList());
+			} catch (StaleElementReferenceException sre) {
+				LOGGER.warn("StaleElementReferenceException.It was not possible to find the element, reprocessing the RMA...");
+				driver.get("https://spl.dhl.com/xdock/app/returnorder/");
+				i--;
+				continue;
 			}
 			// VOLVEMOS A 1.SEARCH PALLET
 			driver.get("https://spl.dhl.com/xdock/app/returnorder/");

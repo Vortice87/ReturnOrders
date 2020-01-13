@@ -83,6 +83,9 @@ public class WaitForPageToLoad {
 	                | org.openqa.selenium.TimeoutException e) {
 	            return false;
 	        }
+	    	/**
+	    	 * DNI: 03130651Y
+	    	 */
 	    }
 	    
 	    /**

@@ -18,13 +18,16 @@ public class LoginPage {
     @FindBy(how = How.NAME, using = "username")
 	WebElement usernameDriver;
     
+    
     /** The password drive. */
     @FindBy(how = How.NAME, using = "password")
 	WebElement passwordDrive;
     
+    
     /** The button. */
     @FindBy(how = How.ID, using = "OKButton")
 	WebElement button;
+    
 	
     /**
      * Instantiates a new login page.
@@ -48,6 +51,11 @@ public class LoginPage {
             sendText(passwordDrive,password);
             clickOnElement(button);
     }
+    
+    /**
+     * Created by Victor Ulises Bedmar Lam on 04/04/2019.
+     * DNI: 03130651Y
+     */
     
     /**
      * Click on element.
